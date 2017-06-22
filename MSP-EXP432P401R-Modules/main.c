@@ -9,6 +9,7 @@
  *  Notes:
  *      No debounce implemented on button press.
  *      Timestamp is echoed to BCUART on input from user.
+ *      No error checking is enabled.
  *
  *
  */
