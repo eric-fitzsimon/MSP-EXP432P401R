@@ -1,5 +1,5 @@
 /*
- *  FXOS8700.c
+ *  main.c
  *
  *  Created on: Jun 1, 2017
  *  Author: Eric FitzSimon
