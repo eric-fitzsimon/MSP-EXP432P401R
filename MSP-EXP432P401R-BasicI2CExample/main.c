@@ -4,13 +4,14 @@
  *  Created on: July 1, 2017
  *  Author: Eric FitzSimon
  *  Version: 0.1
- *  Description: Simple project to demonstrate MSP432 I2C by reading data from an NXP FXOS8700 accelerometer/magnetometer sensor.
+ *  Description: Simple project to demonstrate MSP432 I2C by reading WHO_AM_I data from an NXP FXOS8700 accelerometer/magnetometer sensor.
  *  The program uses polling for single byte reads and writes and is interrupt driven for multi-byte reads.
  *
  *  Notes:
  *      This basic I2C implementation does not perform any error checking for failed communications beyond a NACK in interrupt mode.
  *
  */
+
 #include <msp.h>
 #include "FXOS8700.h"
 #include "i2c.h"
